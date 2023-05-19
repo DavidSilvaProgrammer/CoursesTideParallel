@@ -1,0 +1,3 @@
+Curso básico de Python
+
+MaratonLATAM2023_Python_IFSertãoPE
