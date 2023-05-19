@@ -1,0 +1,5 @@
+print("Conta-me qualquer coisa...")
+anything = int(input())
+anything+=5
+print("Hum...", anything, "... Realmente?")
+
