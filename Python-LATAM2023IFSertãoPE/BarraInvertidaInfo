@@ -3,3 +3,5 @@
 #ao resultado esperado gerado em três linhas.
 
 print("\"Eu sou\"\n\"\"apredizado\"\"\n\"\"\"Python\"\"\"")
+
+print("\"Eu sou\"","\"\"apredizado\"\"","\"\"\"Python\"\"\"",sep="\n") 
