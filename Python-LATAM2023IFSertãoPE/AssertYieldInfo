@@ -1,0 +1,12 @@
+x = 5
+assert x > 0, "x deve ser maior que zero"
+
+
+
+def contador():
+    for i in range(5):
+        yield i
+
+c = contador()
+print(next(c))  # Imprime 0
+print(next(c))  # Imprime 1
