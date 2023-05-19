@@ -3,3 +3,7 @@ anything = int(input())
 anything+=5
 print("Hum...", anything, "... Realmente?")
 
+
+anything = input("Conta-me qualquer coisa...")
+print("Hum...", anything, "...Realmente?")
+
