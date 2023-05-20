@@ -8,7 +8,8 @@ else:
     
     
     
-Versão oficial skillsforall
+Versão oficial skillsforall:
+
 name = input("Insira o nome da flor: ")
 
 if name == "Spathiphyllum":
@@ -17,4 +18,7 @@ elif name == "spathiphyllum":
     print("Não, eu quero uma grande Spathiphyllum!")
 else:
     print("Spathiphyllum! Não", name + "!")
+    
+#Obs: Quando a variável já for string, é possível usar a concatenação com mais sem precisar,
+#,obviamente, utilizar a função str() para padronizar converter a variável.
 	
