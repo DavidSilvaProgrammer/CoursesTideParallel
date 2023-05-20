@@ -1,0 +1,6 @@
+user_word=input("Digite uma palavra: ")
+user_word.upper()
+for letter in user_word:
+    if letter == "a" or letter == "e" or letter == "i" or letter == "o" or letter == "u":
+        continue
+    print(letter)
