@@ -38,3 +38,15 @@ A condição que verifica se um número é ímpar também pode ser codificada ne
 
 if number % 2 == 1: e if number % 2:.
 
+
+Subtração para sair do  loop:
+
+
+counter = 5
+while counter != 0:
+    print("Dentro do laço.", counter)
+    counter -= 1
+print("Fora do circuito.", counter)
+ 
+
+
