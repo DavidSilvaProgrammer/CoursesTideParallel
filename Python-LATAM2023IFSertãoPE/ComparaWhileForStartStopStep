@@ -29,3 +29,7 @@ for i in range(1, 6):
 for i in range(1, 10, 2):
     print(i)  # Imprime: 1, 3, 5, 7, 9
 
+power = 1
+for expo in range(16):
+  print("2 à potência de", expo, "é", power)
+  power *= 2
