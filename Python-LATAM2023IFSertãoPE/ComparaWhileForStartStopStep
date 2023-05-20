@@ -1,0 +1,18 @@
+ i = 0
+while i < 100:
+    # do_something()
+    i += 1
+    
+    
+for i in range(100):
+    # do_something()
+    pass
+ 
+ for i in range(2, 8):
+    print("O valor de i é atualmente", i)
+    
+ A função range() em Python aceita até três argumentos: start, stop e step. A sintaxe geral da função range() é a seguinte:
+
+arduino
+
+range([start], stop, [step])
