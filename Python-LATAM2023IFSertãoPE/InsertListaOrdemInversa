@@ -4,3 +4,13 @@ for i in range(5):
     my_list.insert(0, i + 1)
  
 print(my_list)
+
+
+
+##################################
+
+
+A chamada my_list.insert(0, i + 1) insere o elemento i + 1 no índice 0 da lista, 
+empurrando todos os outros elementos existentes para índices maiores. Isso faz com que os 
+elementos sejam inseridos em ordem inversa, pois cada novo elemento é colocado no início da lista, 
+deslocando os elementos anteriores.
