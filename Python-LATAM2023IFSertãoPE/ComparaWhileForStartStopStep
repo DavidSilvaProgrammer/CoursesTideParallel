@@ -33,3 +33,11 @@ power = 1
 for expo in range(16):
   print("2 à potência de", expo, "é", power)
   power *= 2
+
+
+A variável expo é usada como uma variável de controle para o loop e indica o valor 
+atual do expoente. A exponenciação em si é substituída pela multiplicação por dois. 
+Como 2 0 é igual a 1, 2 × 1 é igual a 2 1, 2 × 2 1 é igual a 2 2 e assim por diante. 
+Qual é o maior expoente para o qual nosso programa ainda imprime o resultado?
+
+Execute o código e verifique se a saída corresponde às suas expectativas.
