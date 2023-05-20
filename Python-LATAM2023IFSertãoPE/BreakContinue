@@ -1,0 +1,67 @@
+
+    break - sai do loop imediatamente e termina incondicionalmente a operação do loop; 
+    o programa começa a executar a instrução mais próxima após o corpo do loop;
+    
+    continue - se comporta como se o programa tivesse chegado ao fim do corpo; o próximo 
+    turno é iniciado e a expressão de condição é testada imediatamente.
+
+#Exemplo:
+
+# break - exemplo
+
+print("The break instrução:")
+for i in range(1, 6):
+    if i == 3:
+        break
+    print("Dentro do laço.", i)
+print("Fora do loop.")
+
+
+# continue - exemplo
+
+print("The continue instrução:")
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print("Dentro do laço.", i)
+print("Fora do loop.")
+***********************************************************
+break:
+
+largest_number = -99999999
+counter = 0
+
+while True:
+    number = int(input("Digite um número ou digite -1 para terminar o programa: "))
+    if number == -1:
+        break
+    counter += 1
+    if number > maior_numero:
+        maior_numero = number
+
+if counter != 0:
+    print("TO maior número é", maior_numero)
+else:
+    print("Você não inseriu nenhum número.")
+*************************************************************
+continue:
+
+largest_number = -99999999
+counter = 0
+
+number = int(input("Insira um número ou digite -1 para finalizar o programa: "))
+
+while number != -1:
+    if number == -1:
+        continue
+    counter += 1
+
+    if number > largest_number:
+        largest_number = number
+    number = int(input("Insira um número ou digite -1 para finalizar o programa: "))
+
+if counter:
+    print("O maior número é",  largest_number)
+else:
+    print("Você nnão tem inseriu qualquer número.")
+
