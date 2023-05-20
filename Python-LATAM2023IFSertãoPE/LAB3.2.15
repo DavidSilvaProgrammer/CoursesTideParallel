@@ -1,0 +1,135 @@
+3.2.15   LAB   A hipótese de Collatz
+Cenário
+
+Em 1937, um matemático alemão chamado Lothar Collatz formulou uma hipótese intrigante (ainda não comprovada) que pode ser descrita da seguinte forma:
+
+    pegue qualquer número inteiro diferente de zero e diferente de zero e nomeie-o como c0;
+    se for par, avalie um novo c0 como c0 ÷ 2;
+    caso contrário, se for ímpar, avalie um novo c0 como 3 × c0 + 1;
+    se c0 ≠ 1 , volte ao ponto 2.
+
+A hipótese diz que, independentemente do valor inicial de c0, ela sempre vai para 1.
+
+Obviamente, é uma tarefa extremamente complexa usar um computador para provar a hipótese de qualquer número natural (pode até exigir inteligência artificial), mas você pode usar o Python para verificar alguns números individuais. Talvez você até encontre aquele que refutaria a hipótese.
+
+Escreva um programa que leia um número natural e execute as etapas acima, desde que c0 permaneça diferente de 1. Também queremos que você conte as etapas necessárias para atingir o objetivo. Seu código deve gerar todos os valores intermediários de c0 também.
+
+Dica: a parte mais importante do problema é como transformar a ideia de Collatz em um loop while - essa é a chave para o sucesso.
+
+Teste seu código usando os dados que fornecemos.
+
+Dados de teste:
+
+Exemplo de entrada:
+
+15
+
+Saída prevista:
+
+46
+46
+70
+35
+106
+53
+160
+80
+40
+20
+10
+5
+16
+8
+4
+2
+1
+etapas = 17
+Output
+
+Exemplo de entrada:
+
+
+
+16
+
+Saída prevista:
+
+8
+4
+2
+1
+etapas = 4
+Output
+
+Exemplo de entrada:
+
+1023
+
+Saída prevista:
+
+3070
+1535
+4606
+2303
+6910
+3455
+10366
+5183
+15550
+7775
+23326
+11663
+34990
+17495
+52486
+26243
+78730
+39365
+118096
+59048
+29524
+14762
+7381
+22144
+11072
+5536
+2768
+1384
+692
+346
+173
+173
+260
+130
+65
+196
+98
+49
+148
+74
+37
+37
+56
+28
+14
+7
+22
+11
+34
+17
+52
+26
+13
+40
+20
+10
+5
+16
+8
+4
+2
+1
+2
+Output
+
+
