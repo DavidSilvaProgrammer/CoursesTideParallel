@@ -10,4 +10,7 @@ largest_number = max(number1, number2, number3)
  
 # Imprimir o resultado.
 print("O maior número é:", largest_number)
+
+#Da mesma forma, você pode usar a função min() para retornar o número mais baixo. 
+#Você pode recriar o código acima e testá-lo na Sandbox.
  
