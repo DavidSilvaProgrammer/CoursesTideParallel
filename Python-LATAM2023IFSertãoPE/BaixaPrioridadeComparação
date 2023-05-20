@@ -1,0 +1,11 @@
+black_sheep=2
+white_sheep=2
+
+
+
+print(black_sheep == 2 * white_sheep)
+print(black_sheep == (2 * white_sheep))
+
+
+
+#Devido à baixa prioridade do operador ==, a pergunta deve ser tratada como equivalente a esta.
