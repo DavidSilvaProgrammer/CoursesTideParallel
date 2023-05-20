@@ -9,3 +9,7 @@ for i in range(5):
  print(i)
 else:
  print("else:", i)
+ 
+ Quando o corpo do loop não é executado, a variável de controle retém o valor que tinha antes do loop.
+
+Nota: se a variável de controle não existir antes do início do loop, ela não existirá quando a execução atingir a filial do resto else.
