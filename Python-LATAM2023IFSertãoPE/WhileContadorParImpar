@@ -23,3 +23,18 @@ while number != 0:
 # Imprimir resultados.
 print("Números ímpares contam:", odd_numbers)
 print("Números pares contam:", even_numbers)
+
+
+###########################
+
+
+Determinadas expressões podem ser simplificadas sem alterar o comportamento do programa.
+
+Tente se lembrar de como o Python interpreta a verdade de uma condição e observe que essas duas formas são equivalentes:
+
+while number != 0: e while number:.
+
+A condição que verifica se um número é ímpar também pode ser codificada nessas formas equivalentes:
+
+if number % 2 == 1: e if number % 2:.
+
