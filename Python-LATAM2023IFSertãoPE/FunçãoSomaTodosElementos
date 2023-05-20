@@ -1,0 +1,10 @@
+def somar_lista(lista):
+    soma = 0
+    for elemento in lista:
+        soma += elemento
+    return soma
+
+# Exemplo de uso
+lista = [1, 2, 3, 4, 5]
+resultado = somar_lista(lista)
+print("A soma dos elementos da lista é:", resultado)
